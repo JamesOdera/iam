@@ -110,61 +110,9 @@ nav ul li a:hover {
     }
 }
 
-.me {
-    width: 100px;
-    background-color: transparent;
-    overflow-x: hidden;
-    padding-top: 20px;
-    float: right;
-    margin-right: 20px;
-    margin-top: 190px;
-}
-
-.me a {
-    padding: 6px 3px 6px 3px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
-
-.me a:hover {
-    color: #f1f1f1;
-}
-
 .main {
     margin-left: 200px;
     /* Same as the width of the sidenav */
-}
-
-@media screen and (max-height: 450px) {
-    .me {
-        padding-top: 15px;
-    }
-    .me a {
-        font-size: 18px;
-    }
-}
-
-.me ul {
-    text-decoration: none;
-}
-
-.me ul li {
-    position: relative;
-    display: block;
-    color: #666;
-    font-size: 30px;
-    background: transparent;
-    margin: 0 15px;
-    cursor: pointer;
-}
-
-.me ul li::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
 }
 
 .echo {
@@ -178,19 +126,20 @@ nav ul li a:hover {
 .echo1 {
     overflow-x: hidden;
     margin-left: 30px;
-    margin-top: 170px;
+    margin-top: -60px;
     color: grey;
+    text-align: center;
 }
 
 .echo2 {
     overflow-x: hidden;
-    margin-left: 360px;
-    margin-top: -90px;
+    text-align: center;
+    margin-top: 70px;
 }
 
 .typewrite {
     font-size: 70px;
-    color: rgb(0, 255, 238);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -203,4 +152,16 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
     color: inherit;
+}
+
+.wat a {
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+.wat a:hover {
+    color: white;
+    cursor: pointer;
 }
