@@ -128,7 +128,7 @@ nav ul li a:hover {
 .echo1 {
     overflow-x: hidden;
     margin-left: 30px;
-    margin-top: -100px;
+    margin-top: -230px;
     color: grey;
     text-align: center;
 }
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .wat a {
-    color: white;
+    color: grey;
     cursor: pointer;
     float: right;
     margin-right: 50px;
@@ -166,4 +166,5 @@ a:hover {
 .wat a:hover {
     color: white;
     cursor: pointer;
+    transition: 1s;
 }
