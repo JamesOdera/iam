@@ -8,8 +8,9 @@
 body,
 html {
     height: 100%;
-    /* color: white;
-    background-color: black; */
+    color: white;
+    background-color: black;
+    font-family: 'Spartan', sans-serif;
 }
 
 .navbar {
@@ -19,6 +20,15 @@ html {
 .page-footer,
 .top-nav-collapse {
     background-color: #1C2331
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width:768px) {
